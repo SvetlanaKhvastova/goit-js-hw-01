@@ -5,8 +5,10 @@ function calculateTotalPrice(array, prop) {
 
   for (const key of array) {
     console.log(key.name);
-    if (prop === key.name) {
-      allProdcuts += key.price * key.quantity;
+
+    const { name, price, quantity } = key;
+    if (prop === name) {
+      allProdcuts += price * quantity;
     }
   }
   return allProdcuts;
@@ -26,11 +28,11 @@ const products = [
 console.log(calculateTotalPrice(products, 'Радар'));
 // 9080
 
-//console.log(calculateTotalPrice(products, 'Сканер'));
+console.log(calculateTotalPrice(products, 'Сканер'));
 // 10200
 
-//console.log(calculateTotalPrice(products, 'Захват'));
+console.log(calculateTotalPrice(products, 'Захват'));
 // 2400
 
-//console.log(calculateTotalPrice(products, 'Дроид'));
+console.log(calculateTotalPrice(products, 'Дроид'));
 // 2800
