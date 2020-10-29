@@ -2,7 +2,7 @@
 
 # goit-js-hw-05
 
-<!-- Задача 5-1 (task-30) function-constructor Напиши функцию-конструктор Account,
+Задача 5-1 (task-30) function-constructor Напиши функцию-конструктор Account,
 которая создает объект со свойствами login и email. В prototype
 функции-конструктора добавь метод getInfo(), который возвращает строку со
 значениями свойств login и email объекта.
@@ -59,7 +59,7 @@ Car {
   скорость не меньше нуля decelerate(value) {}
 
 - Добавляет в поле distance киллометраж (hours х speed),но только в том случае
-  если машина заведена! drive(hours) {} } -->
+  если машина заведена! drive(hours) {} }
 
 # goit-js-hw-06
 
